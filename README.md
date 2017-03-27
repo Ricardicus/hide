@@ -1,7 +1,7 @@
-# hide
-Keep your files locked from the eyes of strangers when you want them to be, recover them when you want to. 
+# What am I looking at here
+Basically a program that makes files unreadable and back to readable at will. 
 # Set up
-1. This is a command line too developed for mac computers. Might work just fine on Linux aswell (have not tested).  
+1. This is a command line tool using some UNIX system commands. Developed and used on a mac but might work just fine on Linux aswell (but I have not verified that).  
 
 2. Type 'make' in this directory.
 
