@@ -6,7 +6,7 @@ This is a command line tool using some UNIX system commands. Developed and used 
 1. Type 'make' in this directory.
 
 2. Type 'sudo mv hide_these_files /usr/local/bin/hide_these_files' or exchange '/usr/local/bin' for any other path 
-under the '$PATH' environment variable.
+under the '$PATH' environment variable. The OS will probably ask for your password in order to carry out that command.
 
 # Use
 Tips: The environment variable '$PWD' can be used, it will be translated into the directory where you are located in the terminal. 
