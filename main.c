@@ -1,1 +1,14 @@
-G›ЪХэжХRј5D\|\$Жg.І<з›е¬(gкnљ]рga(]d_r&[lct[[%uid"]pga6/)yLPILPYOO?GC7perqlh.;wtmcafa]ajhY`ejeq[ch$_rerU*Y* _napW/]*[lct[0Y#5	panonl .7w
+#include <stdio.h>
+#include <stdlib.h>
+#include "krypt.h"
+
+int main(int argc, char* argv[])
+{
+	if ( argc < 3 ){
+		PRINT_USAGE;
+	}
+
+	toggle_all_files_in(argv[0], argv[1], argv[2]);
+
+	return 0;
+}
