@@ -73,6 +73,8 @@ void toggle_all_files_in(const char* exe_name, const char* dir, const char* key)
 			*ch = '.';
 
 		} else {
+
+			crypt=1;
 			memset(filepath, '\0', sizeof(filepath));
 			sprintf(filepath, "%s/%s.encrypted", dir, filename);	
 		}
