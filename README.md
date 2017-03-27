@@ -1,11 +1,11 @@
 # What am I looking at here
 Basically a program that makes files unreadable and back to readable at will. 
 # Set up
-1. This is a command line tool using some UNIX system commands. Developed and used on a mac but might work just fine on Linux aswell (but I have not verified that).  
+This is a command line tool using some UNIX system commands. Developed and used on a mac but might work just fine on Linux aswell (but I have not verified that).  
 
-2. Type 'make' in this directory.
+1. Type 'make' in this directory.
 
-3. Type 'sudo mv hide_these_files /usr/local/bin/hide_these_files' or exchange '/usr/local/bin' for any other path 
+2. Type 'sudo mv hide_these_files /usr/local/bin/hide_these_files' or exchange '/usr/local/bin' for any other path 
 under the '$PATH' environment variable.
 
 # Use
